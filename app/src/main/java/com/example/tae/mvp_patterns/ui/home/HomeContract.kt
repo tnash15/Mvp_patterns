@@ -5,7 +5,7 @@ import com.example.tae.mvp_patterns.model.APIData
 interface HomeContract {
 
     interface View {
-        fun showResults(results: List<APIData>)
+        fun showResults(results: APIData?)
         fun showError(message: String)
     }
 
